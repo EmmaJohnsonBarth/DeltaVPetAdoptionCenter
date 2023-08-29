@@ -12,17 +12,14 @@
         <nav>
             <ul>
                 <li><a href=”dogs.html”>Dogs</a>
-                <li>
                 <li><a href=”cats.html”>Cats</a>
-                <li>
                 <li><a href=”lizards.html”>Lizards</a>
-                <li>
             </ul>
-
         </nav>
     </header>
 
-    <title> Featured Creatures</title>
+    <h2> Featured Creatures </h2>
+    <p> These creatures are notable. </p>
 
 
 
