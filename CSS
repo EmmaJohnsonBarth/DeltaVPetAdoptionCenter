@@ -3,6 +3,7 @@ body {
     background-color: #434a42;
     margin: auto;
     color: #e1ca96;
+    margin: 20;
 }
 
 header {
@@ -20,6 +21,7 @@ nav {
     background-color: #918b76;
     margin: auto;
     color: #e1ca96;
+    ;
 }
 
 ul {
@@ -29,6 +31,7 @@ ul {
     background-color: #aca885;
     margin: auto;
     color: #e1ca96;
+    display: block;
 }
 
 h2 {
@@ -39,8 +42,17 @@ h2 {
     background-color: #e1ca96;
     }
 
+a {
+    font-size: 18px;
+    margin: auto;
+    color:#918b76;
+}
 
-
+p {
+    font-size: 18px;
+    margin: auto;
+    color:#918b76;
+}
 
 
 
