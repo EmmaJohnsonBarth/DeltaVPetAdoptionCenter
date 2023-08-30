@@ -1,10 +1,12 @@
 body {
+    width: 1200px;
     background-color: #434a42;
     margin: auto;
     color: #e1ca96;
 }
 
 header {
+    width: 1200px;
     background-color: #626c66;
     margin: auto;
     color: #e1ca96;
@@ -12,12 +14,14 @@ header {
 }
 
 nav {
+    width: 1200px;
     background-color: #918b76;
     margin: auto;
     color: #e1ca96;
 }
 
 ul {
+    width: 1200px;
     background-color: #aca885;
     margin: auto;
     color: #e1ca96;
