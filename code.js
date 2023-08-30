@@ -14,11 +14,11 @@ let userChoice = prompt('What type of animal are you looking to adopt? Options a
 let lowercaseChoice = userChoice.toLowerCase();
 
 if (lowercaseChoice === 'dog'){
-    window.open('dog.html');
+    window.open('https://emmajohnsonbarth.github.io/DeltaVPetAdoptionCenter/dogs.html');
 } else if (lowercaseChoice === 'cat') {
-    window.open('cat.html')
+    window.open('https://emmajohnsonbarth.github.io/DeltaVPetAdoptionCenter/cats.html')
 } else if (lowercaseChoice === 'lizard') {
-    window.open('lizard.html')
+    window.open('https://emmajohnsonbarth.github.io/DeltaVPetAdoptionCenter/lizards.html')
 } else {
-    alert('those are your only choices');
+    alert('sorry, those are your only choices');
 }
