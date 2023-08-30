@@ -13,26 +13,37 @@ header {
     background-color: #626c66;
     margin: auto;
     color: #e1ca96;
-
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 nav {
     width: 1200px;
     background-color: #918b76;
     margin: auto;
-    color: #e1ca96;
-    ;
+    /* color:#434a42; */
 }
 
 ul {
-    width: 1200px;
+    /* width: 1200px; */
     list-style-type: none;
     font-size: 24px;
     background-color: #aca885;
     margin: auto;
-    color: #e1ca96;
+    /* color:#434a42; */
     display: block;
+    /* padding-left: 12px; */
 }
+
+ul li {
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    }
 
 h2 {
     width: 1200px;
@@ -40,6 +51,7 @@ h2 {
     margin:auto;
     color:#626c66;
     background-color: #e1ca96;
+    text-align: center;
     }
 
 a {
@@ -54,5 +66,13 @@ p {
     color:#918b76;
 }
 
+/* class="backgroundColor"
+main diff between class and id - a css id should only be used once
+css class: 
+.backgroundColor {
+    background-color: firebrick;
+}
 
-
+#fontColor {
+    color: chartreuse;
+}*/
