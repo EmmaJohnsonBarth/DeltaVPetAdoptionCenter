@@ -11,6 +11,20 @@
 
 
 'use strict mode'
+ 
+
+function dogClick() {
+    window.open(HTML/dog.html);
+}
+
+function catClick() {
+    window.open(HTML/cat.html);
+}
+
+function lizardClick() {
+    window.open(HTML/lizard.html);
+}
+
 
 // let userChoice = prompt('What type of animal are you looking to adopt? Options are a dog, cat, or lizard.')
 
