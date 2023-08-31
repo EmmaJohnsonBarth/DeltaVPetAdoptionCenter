@@ -18,9 +18,13 @@ header {
     margin-bottom: 15px;
 }
 
+h1 {
+    font-size: 24px;
+}
+
 nav {
     width: 1200px;
-    background-color:#565543;
+    background-color: #565543;
     margin: auto;
     padding-bottom: 15px;
 }
@@ -29,8 +33,7 @@ ul {
     /* width: 1200px; */
     list-style-type: none;
     font-size: 24px;
-    background-color:#212420
-    margin: auto;
+    background-color: #212420 margin: auto;
     /* color:#9d3871; */
     display: block;
     /* padding-left: 12px; */
@@ -42,28 +45,37 @@ ul li {
     padding-bottom: 12px;
     padding-left: 12px;
     padding-right: 12px;
-    color:#212420
-    }
+    color: #212420
+}
+
+main {
+    text-align: center;
+}
 
 h2 {
     width: 1200px;
     font-size: 20px;
-    margin:auto;
-    color:#626c66;
+    margin: auto;
+    color: #626c66;
     background-color: #e1ca96;
     text-align: center;
-    }
+}
+
+h3 {
+    font-size: 15px;
+}
 
 a {
     font-size: 18px;
     margin: auto;
-    color:#e1ca96;
+    color: #e1ca96;
     text-align: center;
+}
 
 p {
     font-size: 18px;
     margin: auto;
-    color:#918b76;
+    color: #918b76;
     text-align: center;
 }
 
