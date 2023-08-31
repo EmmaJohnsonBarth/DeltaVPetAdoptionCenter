@@ -16,24 +16,22 @@ header {
     padding-bottom: 15px;
     padding-top: 15px;
     margin-bottom: 15px;
-    
 }
 
 nav {
     width: 1200px;
-    background-color: #918b76;
+    background-color:#565543;
     margin: auto;
     padding-bottom: 15px;
-    /* color:#434a42; */
 }
 
 ul {
     /* width: 1200px; */
     list-style-type: none;
     font-size: 24px;
-    background-color: #aca885;
+    background-color:#212420
     margin: auto;
-    /* color:#434a42; */
+    /* color:#9d3871; */
     display: block;
     /* padding-left: 12px; */
 }
@@ -44,6 +42,7 @@ ul li {
     padding-bottom: 12px;
     padding-left: 12px;
     padding-right: 12px;
+    color:#212420
     }
 
 h2 {
@@ -58,14 +57,22 @@ h2 {
 a {
     font-size: 18px;
     margin: auto;
-    color:#918b76;
-}
+    color:#e1ca96;
+    text-align: center;
 
 p {
     font-size: 18px;
     margin: auto;
     color:#918b76;
+    text-align: center;
 }
+
+footer section img {
+    width: 200px;
+    height: 200px;
+}
+
+
 
 /* class="backgroundColor"
 main diff between class and id - a css id should only be used once
