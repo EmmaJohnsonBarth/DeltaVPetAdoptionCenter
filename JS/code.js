@@ -11,19 +11,35 @@
 
 
 'use strict mode'
- 
 
-function dogClick() {
-    window.open(HTML/dog.html);
+console.log('our code.js file is connected!')
+
+
+
+function botherOnOpening() {
+    let message = prompt('how many animals would you like to adopt?')
+    if (message <= 0) {
+        alert('boo')
+    } else if (message == 1) {
+        alert('yay!')
+    } else if (message >= 2) {
+        alert('wow! amazing!')
+    } else {message = prompt('no really, how many animals you want??')}
 }
 
-function catClick() {
-    window.open(HTML/cat.html);
-}
+// function goToPage(animal) {
+//     const elem = document.getElementById("bob");
+//     elem.style.color = animal;
+// }
 
-function lizardClick() {
-    window.open(HTML/lizard.html);
-}
+
+// function catClick() {
+//     window.open(HTML/cat.html);
+// }
+
+// function lizardClick() {
+//     window.open(HTML/lizard.html);
+// }
 
 
 // let userChoice = prompt('What type of animal are you looking to adopt? Options are a dog, cat, or lizard.')
